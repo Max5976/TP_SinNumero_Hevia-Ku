@@ -17,4 +17,16 @@ public class HomeController : Controller
     {
         return View();
     }
+    public IActionResult Perfil(string email, string contrasenia) 
+    {
+        Integrante integrante = BD.encontrarUsuario(email, contrasenia);
+        if (integrante == null) 
+        {
+            return View("Index");
+        } 
+        else
+        {
+            return View();
+        }
+    }
 }
