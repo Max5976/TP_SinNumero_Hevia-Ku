@@ -60,6 +60,7 @@
           }
         }
       },
+<<<<<<< HEAD
       "Microsoft.AspNetCore.Cryptography.Internal/2.3.0": {
         "type": "package",
         "compile": {
@@ -198,6 +199,8 @@
           }
         }
       },
+=======
+>>>>>>> 18f701d303596fb24eca05234fb5037421caa910
       "Microsoft.Bcl.AsyncInterfaces/1.1.1": {
         "type": "package",
         "compile": {
@@ -323,7 +326,11 @@
           "Microsoft.Extensions.Primitives": "8.0.0"
         },
         "compile": {
+<<<<<<< HEAD
           "lib/net8.0/Microsoft.Extensions.Caching.Abstractions.dll": {
+=======
+          "lib/net8.0/_._": {
+>>>>>>> 18f701d303596fb24eca05234fb5037421caa910
             "related": ".xml"
           }
         },
@@ -359,6 +366,7 @@
           "buildTransitive/net6.0/_._": {}
         }
       },
+<<<<<<< HEAD
       "Microsoft.Extensions.Configuration.Abstractions/8.0.0": {
         "type": "package",
         "dependencies": {
@@ -382,6 +390,12 @@
         "type": "package",
         "compile": {
           "lib/net8.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll": {
+=======
+      "Microsoft.Extensions.DependencyInjection.Abstractions/8.0.2": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0/_._": {
+>>>>>>> 18f701d303596fb24eca05234fb5037421caa910
             "related": ".xml"
           }
         },
@@ -394,6 +408,7 @@
           "buildTransitive/net6.0/_._": {}
         }
       },
+<<<<<<< HEAD
       "Microsoft.Extensions.Diagnostics.Abstractions/8.0.1": {
         "type": "package",
         "dependencies": {
@@ -456,13 +471,19 @@
           "buildTransitive/net6.0/_._": {}
         }
       },
+=======
+>>>>>>> 18f701d303596fb24eca05234fb5037421caa910
       "Microsoft.Extensions.Logging.Abstractions/8.0.2": {
         "type": "package",
         "dependencies": {
           "Microsoft.Extensions.DependencyInjection.Abstractions": "8.0.2"
         },
         "compile": {
+<<<<<<< HEAD
           "lib/net8.0/Microsoft.Extensions.Logging.Abstractions.dll": {
+=======
+          "lib/net8.0/_._": {
+>>>>>>> 18f701d303596fb24eca05234fb5037421caa910
             "related": ".xml"
           }
         },
@@ -482,7 +503,11 @@
           "Microsoft.Extensions.Primitives": "8.0.0"
         },
         "compile": {
+<<<<<<< HEAD
           "lib/net8.0/Microsoft.Extensions.Options.dll": {
+=======
+          "lib/net8.0/_._": {
+>>>>>>> 18f701d303596fb24eca05234fb5037421caa910
             "related": ".xml"
           }
         },
@@ -498,7 +523,11 @@
       "Microsoft.Extensions.Primitives/8.0.0": {
         "type": "package",
         "compile": {
+<<<<<<< HEAD
           "lib/net8.0/Microsoft.Extensions.Primitives.dll": {
+=======
+          "lib/net8.0/_._": {
+>>>>>>> 18f701d303596fb24eca05234fb5037421caa910
             "related": ".xml"
           }
         },
@@ -639,6 +668,7 @@
           }
         }
       },
+<<<<<<< HEAD
       "Microsoft.NETCore.Platforms/2.0.0": {
         "type": "package",
         "compile": {
@@ -648,6 +678,8 @@
           "lib/netstandard1.0/_._": {}
         }
       },
+=======
+>>>>>>> 18f701d303596fb24eca05234fb5037421caa910
       "Microsoft.SqlServer.Server/1.0.0": {
         "type": "package",
         "compile": {
@@ -661,6 +693,7 @@
           }
         }
       },
+<<<<<<< HEAD
       "Microsoft.Win32.Registry/4.5.0": {
         "type": "package",
         "dependencies": {
@@ -699,6 +732,8 @@
           }
         }
       },
+=======
+>>>>>>> 18f701d303596fb24eca05234fb5037421caa910
       "System.ClientModel/1.0.0": {
         "type": "package",
         "dependencies": {
@@ -849,6 +884,7 @@
           "buildTransitive/netcoreapp3.1/_._": {}
         }
       },
+<<<<<<< HEAD
       "System.Security.AccessControl/4.5.0": {
         "type": "package",
         "dependencies": {
@@ -870,6 +906,8 @@
           }
         }
       },
+=======
+>>>>>>> 18f701d303596fb24eca05234fb5037421caa910
       "System.Security.Cryptography.Pkcs/8.0.1": {
         "type": "package",
         "compile": {
@@ -908,6 +946,7 @@
           "buildTransitive/net6.0/_._": {}
         }
       },
+<<<<<<< HEAD
       "System.Security.Cryptography.Xml/8.0.2": {
         "type": "package",
         "dependencies": {
@@ -915,10 +954,17 @@
         },
         "compile": {
           "lib/net8.0/System.Security.Cryptography.Xml.dll": {
+=======
+      "System.Text.Encodings.Web/4.7.2": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.1/System.Text.Encodings.Web.dll": {
+>>>>>>> 18f701d303596fb24eca05234fb5037421caa910
             "related": ".xml"
           }
         },
         "runtime": {
+<<<<<<< HEAD
           "lib/net8.0/System.Security.Cryptography.Xml.dll": {
             "related": ".xml"
           }
@@ -970,6 +1016,11 @@
             "assetType": "runtime",
             "rid": "browser"
           }
+=======
+          "lib/netstandard2.1/System.Text.Encodings.Web.dll": {
+            "related": ".xml"
+          }
+>>>>>>> 18f701d303596fb24eca05234fb5037421caa910
         }
       },
       "System.Text.Json/4.7.2": {
@@ -1054,6 +1105,7 @@
         "readme.md"
       ]
     },
+<<<<<<< HEAD
     "Microsoft.AspNetCore.Cryptography.Internal/2.3.0": {
       "sha512": "/qy5r0CD40OccajzDmX3gBfqqxpAJkcXoqlVz0YR70x3gTRq/VuseDU/lZ5eh8vM+KCdmPFAtyGcRWxTyXxuYg==",
       "type": "package",
@@ -1158,6 +1210,8 @@
         "microsoft.aspnetcore.session.nuspec"
       ]
     },
+=======
+>>>>>>> 18f701d303596fb24eca05234fb5037421caa910
     "Microsoft.Bcl.AsyncInterfaces/1.1.1": {
       "sha512": "yuvf07qFWFqtK3P/MRkEKLhn5r2UbSpVueRziSqj0yJQIKFwG1pq9mOayK3zE5qZCTs0CbrwL9M6R8VwqyGy2w==",
       "type": "package",
@@ -1354,6 +1408,7 @@
         "useSharedDesignerContext.txt"
       ]
     },
+<<<<<<< HEAD
     "Microsoft.Extensions.Configuration.Abstractions/8.0.0": {
       "sha512": "3lE/iLSutpgX1CC0NOW70FJoGARRHbyKmG7dc0klnUZ9Dd9hS6N/POPWhKhMLCEuNN5nXEY5agmlFtH562vqhQ==",
       "type": "package",
@@ -1384,6 +1439,8 @@
         "useSharedDesignerContext.txt"
       ]
     },
+=======
+>>>>>>> 18f701d303596fb24eca05234fb5037421caa910
     "Microsoft.Extensions.DependencyInjection.Abstractions/8.0.2": {
       "sha512": "3iE7UF7MQkCv1cxzCahz+Y/guQbTqieyxyaWKhrRO91itI9cOKO76OHeQDahqG4MmW5umr3CcCvGmK92lWNlbg==",
       "type": "package",
@@ -1416,6 +1473,7 @@
         "useSharedDesignerContext.txt"
       ]
     },
+<<<<<<< HEAD
     "Microsoft.Extensions.Diagnostics.Abstractions/8.0.1": {
       "sha512": "elH2vmwNmsXuKmUeMQ4YW9ldXiF+gSGDgg1vORksob5POnpaI6caj1Hu8zaYbEuibhqCoWg0YRWDazBY3zjBfg==",
       "type": "package",
@@ -1505,6 +1563,8 @@
         "useSharedDesignerContext.txt"
       ]
     },
+=======
+>>>>>>> 18f701d303596fb24eca05234fb5037421caa910
     "Microsoft.Extensions.Logging.Abstractions/8.0.2": {
       "sha512": "nroMDjS7hNBPtkZqVBbSiQaQjWRDxITI8Y7XnDs97rqG3EbzVTNLZQf7bIeUJcaHOV8bca47s1Uxq94+2oGdxA==",
       "type": "package",
@@ -1830,6 +1890,7 @@
         "microsoft.identitymodel.tokens.nuspec"
       ]
     },
+<<<<<<< HEAD
     "Microsoft.NETCore.Platforms/2.0.0": {
       "sha512": "VdLJOCXhZaEMY7Hm2GKiULmn7IEPFE4XC5LPSfBVCUIA8YLZVh846gtfBJalsPQF2PlzdD7ecX7DZEulJ402ZQ==",
       "type": "package",
@@ -1847,6 +1908,8 @@
         "version.txt"
       ]
     },
+=======
+>>>>>>> 18f701d303596fb24eca05234fb5037421caa910
     "Microsoft.SqlServer.Server/1.0.0": {
       "sha512": "N4KeF3cpcm1PUHym1RmakkzfkEv3GRMyofVv40uXsQhCQeglr2OHNcUk2WOG51AKpGO8ynGpo9M/kFXSzghwug==",
       "type": "package",
@@ -1865,6 +1928,7 @@
         "microsoft.sqlserver.server.nuspec"
       ]
     },
+<<<<<<< HEAD
     "Microsoft.Win32.Registry/4.5.0": {
       "sha512": "+FWlwd//+Tt56316p00hVePBCouXyEzT86Jb3+AuRotTND0IYn0OO3obs1gnQEs/txEnt+rF2JBGLItTG+Be6A==",
       "type": "package",
@@ -1935,6 +1999,8 @@
         "packageIcon.png"
       ]
     },
+=======
+>>>>>>> 18f701d303596fb24eca05234fb5037421caa910
     "System.ClientModel/1.0.0": {
       "sha512": "I3CVkvxeqFYjIVEP59DnjbeoGNfo/+SZrCLpRz2v/g0gpCHaEMPtWSY0s9k/7jR1rAsLNg2z2u1JRB76tPjnIw==",
       "type": "package",
@@ -2183,6 +2249,7 @@
         "useSharedDesignerContext.txt"
       ]
     },
+<<<<<<< HEAD
     "System.Security.AccessControl/4.5.0": {
       "sha512": "vW8Eoq0TMyz5vAG/6ce483x/CP83fgm4SJe5P8Tb1tZaobcvPrbMEL7rhH1DRdrYbbb6F0vq3OlzmK0Pkwks5A==",
       "type": "package",
@@ -2225,6 +2292,8 @@
         "version.txt"
       ]
     },
+=======
+>>>>>>> 18f701d303596fb24eca05234fb5037421caa910
     "System.Security.Cryptography.Pkcs/8.0.1": {
       "sha512": "CoCRHFym33aUSf/NtWSVSZa99dkd0Hm7OCZUxORBjRB16LNhIEOf8THPqzIYlvKM0nNDAPTRBa1FxEECrgaxxA==",
       "type": "package",
@@ -2298,16 +2367,24 @@
         "useSharedDesignerContext.txt"
       ]
     },
+<<<<<<< HEAD
     "System.Security.Cryptography.Xml/8.0.2": {
       "sha512": "aDM/wm0ZGEZ6ZYJLzgqjp2FZdHbDHh6/OmpGfb7AdZ105zYmPn/83JRU2xLIbwgoNz9U1SLUTJN0v5th3qmvjA==",
       "type": "package",
       "path": "system.security.cryptography.xml/8.0.2",
+=======
+    "System.Text.Encodings.Web/4.7.2": {
+      "sha512": "iTUgB/WtrZ1sWZs84F2hwyQhiRH6QNjQv2DkwrH+WP6RoFga2Q1m3f9/Q7FG8cck8AdHitQkmkXSY8qylcDmuA==",
+      "type": "package",
+      "path": "system.text.encodings.web/4.7.2",
+>>>>>>> 18f701d303596fb24eca05234fb5037421caa910
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "Icon.png",
         "LICENSE.TXT",
         "THIRD-PARTY-NOTICES.TXT",
+<<<<<<< HEAD
         "buildTransitive/net461/System.Security.Cryptography.Xml.targets",
         "buildTransitive/net462/_._",
         "buildTransitive/net6.0/_._",
@@ -2415,6 +2492,20 @@
         "system.text.encodings.web.8.0.0.nupkg.sha512",
         "system.text.encodings.web.nuspec",
         "useSharedDesignerContext.txt"
+=======
+        "lib/net461/System.Text.Encodings.Web.dll",
+        "lib/net461/System.Text.Encodings.Web.xml",
+        "lib/netstandard1.0/System.Text.Encodings.Web.dll",
+        "lib/netstandard1.0/System.Text.Encodings.Web.xml",
+        "lib/netstandard2.0/System.Text.Encodings.Web.dll",
+        "lib/netstandard2.0/System.Text.Encodings.Web.xml",
+        "lib/netstandard2.1/System.Text.Encodings.Web.dll",
+        "lib/netstandard2.1/System.Text.Encodings.Web.xml",
+        "system.text.encodings.web.4.7.2.nupkg.sha512",
+        "system.text.encodings.web.nuspec",
+        "useSharedDesignerContext.txt",
+        "version.txt"
+>>>>>>> 18f701d303596fb24eca05234fb5037421caa910
       ]
     },
     "System.Text.Json/4.7.2": {
@@ -2480,9 +2571,13 @@
   "projectFileDependencyGroups": {
     "net8.0": [
       "Dapper >= 2.1.66",
+<<<<<<< HEAD
       "Microsoft.AspNetCore.Session >= 2.3.0",
       "Microsoft.Data.SqlClient >= 6.0.2",
       "NewtonSoft.Json >= 13.0.3"
+=======
+      "Microsoft.Data.SqlClient >= 6.0.2"
+>>>>>>> 18f701d303596fb24eca05234fb5037421caa910
     ]
   },
   "packageFolders": {
@@ -2533,6 +2628,7 @@
             "target": "Package",
             "version": "[2.1.66, )"
           },
+<<<<<<< HEAD
           "Microsoft.AspNetCore.Session": {
             "target": "Package",
             "version": "[2.3.0, )"
@@ -2544,6 +2640,11 @@
           "NewtonSoft.Json": {
             "target": "Package",
             "version": "[13.0.3, )"
+=======
+          "Microsoft.Data.SqlClient": {
+            "target": "Package",
+            "version": "[6.0.2, )"
+>>>>>>> 18f701d303596fb24eca05234fb5037421caa910
           }
         },
         "imports": [

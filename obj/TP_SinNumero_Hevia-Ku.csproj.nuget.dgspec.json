@@ -49,6 +49,7 @@
               "target": "Package",
               "version": "[2.1.66, )"
             },
+<<<<<<< HEAD
             "Microsoft.AspNetCore.Session": {
               "target": "Package",
               "version": "[2.3.0, )"
@@ -60,6 +61,11 @@
             "NewtonSoft.Json": {
               "target": "Package",
               "version": "[13.0.3, )"
+=======
+            "Microsoft.Data.SqlClient": {
+              "target": "Package",
+              "version": "[6.0.2, )"
+>>>>>>> 18f701d303596fb24eca05234fb5037421caa910
             }
           },
           "imports": [
