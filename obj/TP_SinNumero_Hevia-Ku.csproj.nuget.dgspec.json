@@ -1,24 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "Z:\\2025\\programacion\\TP_SinNumero_Hevia-Ku\\TP_SinNumero_Hevia-Ku.csproj": {}
+    "C:\\Users\\Welcome\\Downloads\\TP_SinNumero_Hevia-Ku-master\\TP_SinNumero_Hevia-Ku.csproj": {}
   },
   "projects": {
-    "Z:\\2025\\programacion\\TP_SinNumero_Hevia-Ku\\TP_SinNumero_Hevia-Ku.csproj": {
+    "C:\\Users\\Welcome\\Downloads\\TP_SinNumero_Hevia-Ku-master\\TP_SinNumero_Hevia-Ku.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "Z:\\2025\\programacion\\TP_SinNumero_Hevia-Ku\\TP_SinNumero_Hevia-Ku.csproj",
+        "projectUniqueName": "C:\\Users\\Welcome\\Downloads\\TP_SinNumero_Hevia-Ku-master\\TP_SinNumero_Hevia-Ku.csproj",
         "projectName": "TP_SinNumero_Hevia-Ku",
-        "projectPath": "Z:\\2025\\programacion\\TP_SinNumero_Hevia-Ku\\TP_SinNumero_Hevia-Ku.csproj",
-        "packagesPath": "C:\\Users\\95097703\\.nuget\\packages\\",
-        "outputPath": "Z:\\2025\\programacion\\TP_SinNumero_Hevia-Ku\\obj\\",
+        "projectPath": "C:\\Users\\Welcome\\Downloads\\TP_SinNumero_Hevia-Ku-master\\TP_SinNumero_Hevia-Ku.csproj",
+        "packagesPath": "C:\\Users\\Welcome\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Welcome\\Downloads\\TP_SinNumero_Hevia-Ku-master\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\95097703\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\Welcome\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -53,9 +49,17 @@
               "target": "Package",
               "version": "[2.1.66, )"
             },
+            "Microsoft.AspNetCore.Session": {
+              "target": "Package",
+              "version": "[2.3.0, )"
+            },
             "Microsoft.Data.SqlClient": {
               "target": "Package",
               "version": "[6.0.2, )"
+            },
+            "NewtonSoft.Json": {
+              "target": "Package",
+              "version": "[13.0.3, )"
             }
           },
           "imports": [
@@ -77,7 +81,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.206/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.202/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

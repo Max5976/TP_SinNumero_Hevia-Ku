@@ -9,6 +9,32 @@ html {
   }
 }
 
+header {
+  width: 98%;
+  background-color: rgb(0, 192, 226);
+  color: rgb(255, 255, 255);
+  padding-left: 1.95%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+header h1 {
+  font-size: 370%;
+  margin-left: 1%;
+}
+header a {
+  display: flex;
+  cursor: pointer;
+  background: rgba(255,255,255,0);
+  width: 10%;
+  height: 10%;
+  align-items: center;
+  margin-left: 5%;
+}
+header img {
+  width: 90%;
+}
+
 body {
   margin: 10px;
   padding: 10px;
@@ -20,4 +46,156 @@ footer {
   padding: 10px;
   background-color: #f8f9fa;
   border-top: 1px solid #e9ecef;
+}
+
+/* Formularios de login y registro - minimalista */
+.registroUsuario, .inicioSesion {
+  max-width: 90%;
+  margin: 3% auto;
+  padding: 2%;
+  border-radius: 2%;
+  background: #f8f9fa;
+  /* sin box-shadow */
+  border: 1px solid #e0e0e0;
+}
+
+.registroUsuario h2, .inicioSesion h2 {
+  text-align: center;
+  color: #333;
+  margin-bottom: 2%;
+}
+
+.registroUsuario label, .inicioSesion label, .registroUsuario p, .inicioSesion p {
+  display: block;
+  margin-bottom: 1%;
+  color: #222;
+  font-weight: 500;
+}
+
+.registroUsuario input, .inicioSesion input {
+  width: 100%;
+  padding: 1.2% 1.5%;
+  margin-bottom: 2%;
+  border: 1px solid #ccc;
+  border-radius: 1.5%;
+  font-size: 1em;
+  background: #fff;
+  transition: border-color 0.2s;
+}
+
+.registroUsuario input:focus, .inicioSesion input:focus {
+  border-color: #007bff;
+  outline: none;
+}
+
+.registroUsuario button, .inicioSesion button, .inicioSesion input[type=submit] {
+  width: 100%;
+  padding: 1.5%;
+  background: #007bff;
+  color: white;
+  border: none;
+  border-radius: 1.5%;
+  font-size: 1.1em;
+  cursor: pointer;
+  margin-top: 1.5%;
+  transition: background 0.2s;
+}
+
+.registroUsuario button:hover, .inicioSesion button:hover, .inicioSesion input[type=submit]:hover {
+  background: #0056b3;
+}
+
+/* Mensajes de error */
+.error-message {
+  color: #b00020;
+  background: #ffeaea;
+  padding: 1.2%;
+  border-radius: 1.5%;
+  margin-bottom: 2%;
+  text-align: center;
+}
+
+/* Enlaces de ayuda */
+.registroUsuario a, .inicioSesion a {
+  color: #007bff;
+  text-decoration: none;
+}
+.registroUsuario a:hover, .inicioSesion a:hover {
+  text-decoration: underline;
+}
+
+/* Header principal */
+.main-header {
+  width: 100%;
+  background: #00c0e2;
+  padding: 1.5% 0;
+  margin-bottom: 2%;
+  border-radius: 0 0 2% 2%;
+  display: flex;
+  justify-content: center;
+}
+
+.header-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1.5em;
+}
+
+.logo-header {
+  height: 56px;
+  width: auto;
+  margin-right: 1em;
+  border-radius: 10%;
+  background: #fff;
+  box-shadow: 0 1px 4px rgba(0,0,0,0.07);
+  display: block;
+}
+
+.titulo-header {
+  font-size: 2.2em;
+  color: #fff;
+  font-weight: bold;
+  letter-spacing: 1px;
+  text-shadow: 1px 2px 6px rgba(0,0,0,0.08);
+  display: flex;
+  align-items: center;
+  height: 100%;
+}
+
+/* Botones principales */
+.btn, .inicioSesion input[type=submit], .registroUsuario button {
+  background: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  padding: 0.7em 1.5em;
+  font-size: 1em;
+  cursor: pointer;
+  margin-right: 0.5em;
+  transition: background 0.2s;
+}
+.btn:hover, .inicioSesion input[type=submit]:hover, .registroUsuario button:hover {
+  background: #0056b3;
+}
+
+/* Página de inicio */
+main[role=main] {
+  max-width: 900px;
+  margin: 0 auto;
+  background: #fff;
+  border-radius: 1.5%;
+  padding: 2% 3%;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.04);
+}
+
+/* Footer */
+footer {
+  margin-top: 2%;
+  padding: 1.5% 2%;
+  background-color: #f8f9fa;
+  border-top: 1px solid #e9ecef;
+  text-align: center;
+  font-size: 1em;
+  color: #888;
 }
