@@ -1,0 +1,18 @@
+﻿@{
+    ViewData["Title"] = "Index";
+}
+
+<div>
+    <h2>¡Bienvenidos!</h2>
+    <p>¡Hola! ¡Si entraste a éste sitio, estas en un buen camino! ¡Somos Planetas! En el año 2067, luego de años de humillación y derrota, el pueblo argentino se vió debilitado mundialmente y todos los países del mundo le declararon la guerra. Nosotros salvamos al país.</p>
+</div>
+<div class="inicioSesion">
+    <h2>Porfavor inicie sesión para ingresar al sitio:</h2>
+    <form action='@Url.Action("Perfil")' method="get">
+        <p>Escriba su mail:</p>    
+            <input type="text" name="email" required/>
+        <p>Escriba su contraseña:</p>
+            <input type="text" name="contrasenia" required/>
+        <input type="submit" value="Confirmar Nombre"/>
+    </form>
+</div>
